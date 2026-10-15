@@ -19,3 +19,7 @@ desktop.ini
 # 本地环境配置（含令牌，切勿提交）
 .env
 *.env.local
+
+# 本机加速器根证书（用于 git TLS 校验，仅本机有效）
+accelerator-ca.pem
+*.token
