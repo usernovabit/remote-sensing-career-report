@@ -1,0 +1,21 @@
+# 生成与导出中间产物
+build/
+dist/
+*.tmp
+*.log
+
+# Python 与编辑器
+__pycache__/
+*.pyc
+.vscode/
+.idea/
+
+# Office 与系统临时文件
+~$*
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 本地环境配置（含令牌，切勿提交）
+.env
+*.env.local
